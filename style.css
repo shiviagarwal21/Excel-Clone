@@ -99,6 +99,7 @@ body{
     height: 30px;
     border: 1px solid lightgray;
     display: flex;
+    overflow: scroll;
 }
 .row-name-container{
     overflow: hidden;
@@ -110,6 +111,7 @@ body{
     width: calc(100vw - 30px);
     height: calc(75vh - 30px);
     border: 1px solid lightgray;
+    overflow: scroll;
 }
 .sheet-bar{
     height: 4vh;
@@ -214,4 +216,20 @@ body{
 
 .menu-icon.selected {
     background-color: lightgray;
+}
+
+.input-cell.top-cell-selected {
+    border-top: none;
+}
+
+.input-cell.bottom-cell-selected {
+    border-bottom: 1px solid lightgray;
+}
+
+.input-cell.right-cell-selected {
+    border-right: 1px solid lightgray;
+}
+
+.input-cell.left-cell-selected {
+    border-left: none;
 }
